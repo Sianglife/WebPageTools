@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Index />
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import 'bootstrap'
+import Index from './views/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Index
   }
 }
 </script>
 
+<style lang="scss">
+  @import '../node_modules/bootstrap/scss/bootstrap';
+</style>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './lib/bootstrap/css/Navbar-Right-Links-icons.css';
+  @import './lib/bootstrap/css/styles.min.css';
 </style>
