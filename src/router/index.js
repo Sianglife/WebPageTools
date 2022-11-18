@@ -1,16 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: () => import('../views/Index.vue')
-  }
-]
+import {home,math} from '@/router/list'
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  home,
+  math
 })
 
 export default router
