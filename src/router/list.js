@@ -3,7 +3,7 @@ export const home=[
         "path":"/",
         "title":"首頁",
         "name":'index',
-        "component":()=>require('../views/homeIndex.vue')
+        "component":()=>require('@/views/homeIndex.vue')
     }
 ]
 export const math=[
@@ -13,7 +13,7 @@ export const math=[
         "title":"質因數工具",
         "name":'mathFactor',
         "description":'找質數、因數、質因數與公因數',
-        "component":()=>require('../views/homeIndex.vue')
+        "component":()=>require('@/views/homeIndex.vue')
     },
     {
         "CommingSoom":false,
@@ -21,7 +21,7 @@ export const math=[
         "title":"抽籤",
         "name":'mathRandom',
         "description":'隨機抽籤工具',
-        "component":()=>require('../views/homeIndex.vue')
+        "component":()=>require('@/views/math/Random.vue')
     },
     
 ]
@@ -32,7 +32,7 @@ export const chemistry=[
         "title":"密度工具",
         "name":'chemistryDensity',
         "description":'密度、質量、體積換算',
-        "component":()=>require('../views/homeIndex.vue')
+        "component":()=>require('@/views/homeIndex.vue')
     },
     {
         "CommingSoom":false,
@@ -40,7 +40,7 @@ export const chemistry=[
         "title":"分子量計算器",
         "name":'chemistryMoleCular',
         "description":'計算化合物分子量',
-        "component":()=>require('../views/homeIndex.vue')
+        "component":()=>require('@/views/homeIndex.vue')
     },
     
 ]

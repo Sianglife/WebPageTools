@@ -1,14 +1,15 @@
 <script setup>
     import {ref} from 'vue'
     const urls =ref([
-        {text:'飛翔部落格',href:'https://sianglife.github.io/blog/',icon:'bi bi-pencil'},
+        {text:'飛翔部落格',href:'https://sianglife.github.io/blog/',icon:'bi bi-pencil',blanktab:true},
+        {text:'小工具首頁',href:'/',icon:'bi bi-house-door',blanktab:false}
     ])
 </script>
 
 <template>
     
     <nav class="navbar navbar-light navbar-expand-md py-3" style="background: rgb(89,154,143);">
-        <a class="navbar-brand d-flex align-items-center" href="#">
+        <a class="navbar-brand d-flex align-items-center" href="/">
             <span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
                 <i style="color: var(--bs-navbar-active-color);" class="bi bi-tools"></i>
             </span>
@@ -22,7 +23,8 @@
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item" v-for="item in urls" :key="item.href">
-                        <a class="nav-link link-light" :href=item.href target="_blank"><i :class=item.icon></i>{{item.text}}</a>
+                        <a v-if="item.blanktab" class="nav-link link-light" :href=item.href target="_blank"><i :class=item.icon></i>{{item.text}}</a>
+                        <a v-else class="nav-link link-light" :href=item.href><i :class=item.icon></i>{{item.text}}</a>
                     </li>
                 </ul>
             </div>

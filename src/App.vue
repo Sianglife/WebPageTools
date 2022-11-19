@@ -1,21 +1,19 @@
 <template>
   <navBar />
-
-  <Index />
-
+  <RouterView></RouterView>
   <footerSec />
 </template>
 <script>
-import Index from './views/homeIndex.vue'
 import navBar from '@/components/navBar.vue'
 import footerSec from '@/components/footerSec.vue'
+import router from '@/router/index'
 
 export default {
   name: 'App',
+  router,
   components: {
     navBar,
-    footerSec,
-    Index
+    footerSec
   }
 }
 </script>

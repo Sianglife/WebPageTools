@@ -34,11 +34,13 @@ export default {
                                         <div class="card-body">
                                             <h4 class="card-title">{{item.title}}<br></h4>
                                             <h6 class="text-muted card-subtitle mb-2" style="height: 2em;">{{item.description}}<br></h6>
-                                            <a :href="item.path">
-                                              <button v-if="item.CommingSoon" class="btn btn-primary d-lg-flex align-items-lg-center" type="button" style="text-align: center;background: var(--bs-gray-600);">
-                                                <span class="text-white-50" style="font-size: 12px;">敬請期待</span>
-                                              </button>
-                                              <button v-else class="btn btn-primary d-lg-flex align-items-lg-center" type="button" style="text-align: center;background: var(--bs-info);">
+                                            
+                                            <button v-if="item.CommingSoon" class="btn btn-primary d-lg-flex align-items-lg-center" type="button" style="text-align: center;background: var(--bs-gray-600);">
+                                              <span class="text-white-50" style="font-size: 12px;">敬請期待</span>
+                                            </button>
+
+                                            <a v-else :href="item.path">
+                                              <button class="btn btn-primary d-lg-flex align-items-lg-center" type="button" style="text-align: center;background: var(--bs-info);">
                                                 <i class="bi bi-hand-index-thumb"></i>
                                               </button>
                                             </a>
