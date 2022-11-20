@@ -1,5 +1,5 @@
 <template>
-    <footer class="text-center py-4" style="background: rgb(89,154,143);">
+    <footer class="text-center py-4" style="background: rgb(89,154,143);height: 7em;" >
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-3">
                 <div class="col">

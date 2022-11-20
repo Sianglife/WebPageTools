@@ -1,6 +1,8 @@
 <template>
   <navBar />
-  <RouterView></RouterView>
+  <div id="routerview">
+    <RouterView></RouterView>
+  </div>
   <footerSec />
 </template>
 <script>
@@ -17,6 +19,11 @@ export default {
   }
 }
 </script>
+<style>
+#routerview {
+  min-height: calc(100vh - 12em)
+}
+</style>
 
 
 <style>
