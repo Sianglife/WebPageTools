@@ -13,16 +13,16 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="font-weight: bold;width: 10em;">{{inputnum}}的因數</td>
-                        <td style="font-size: 100%;">{{output[0]}}</td>
+                        <td style="font-size: 1.5em;font-weight: bold;width: 10em;">{{inputnum}}的因數</td>
+                        <td style="font-size: 2em;">{{output[0]}}</td>
                     </tr>
                     <tr>
-                        <td style="font-weight: bold;width: 10em;">{{inputnum}}的質因數</td>
-                        <td style="font-size: 100%;">{{output[1]}}<br /></td>
+                        <td style="font-size: 1.5em;font-weight: bold;width: 10em;">{{inputnum}}的質因數</td>
+                        <td style="font-size: 2em;">{{output[1]}}<br /></td>
                     </tr>
                     <tr>
-                        <td style="font-weight: bold;width: 10em;">{{inputnum}}以下的質數</td>
-                        <td style="font-size: 1em;">{{output[2]}}<br /></td>
+                        <td style="font-size: 1.5em;font-weight: bold;width: 10em;">{{inputnum}}以下的質數</td>
+                        <td style="font-size: 2em;">{{output[2]}}<br /></td>
                     </tr>
                 </tbody>
             </table>
@@ -72,9 +72,9 @@ const arrToString = (arr)=>{
     let str = ''
     for(let item of arr){
         // console.log(item)
-        str = `${str},` + item
+        str = `${str}, ` + item
     }
-    return str.substring(1,str.length)
+    return str.substring(2,str.length)
 }
 export default {
     name:'mathFactor',
@@ -88,9 +88,11 @@ export default {
     methods:{
         update(){
             let r = []
+            let Factors = getAllFactors(this.inputnum)
+            let Prime = getAllPrime(this.inputnum)
             this.output=[arrToString(getAllFactors(this.inputnum)),'',arrToString(getAllPrime(this.inputnum))]
-            for(let i of this.output[0]){
-                for(let k of this.output[1]){
+            for(let i of Factors){ 
+                for(let k of Prime){
                     if(i == k){
                         r.push(k)
                     }
