@@ -10,10 +10,10 @@ export const math=[
     {
         "CommingSoom":false,
         "path":"/math/Factor",
-        "title":"質因數工具",
+        "title":"質數/因數工具",
         "name":'mathFactor',
         "description":'找質數、因數、質因數與公因數',
-        "component":()=>require('@/views/homeIndex.vue')
+        "component":()=>require('@/views/math/Factor.vue')
     },
     {
         "CommingSoom":false,

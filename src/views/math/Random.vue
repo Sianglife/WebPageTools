@@ -59,7 +59,7 @@ const findArr = (arr,target)=>{
 }
 /*eslint-disable*/
 export default {
-    name:"indexPage",
+    name:"mathRandom",
     data(){
         return{
             max:5,
