@@ -4,6 +4,13 @@ export const home=[
         "title":"首頁",
         "name":'index',
         "component":()=>require('@/views/homeIndex.vue')
+    },
+    
+    {
+        "path":"/WebPageTools2.0/koala",
+        "title":"靖哲",
+        "name":'index',
+        "component":()=>require('@/views/koalaB.vue')
     }
 ]
 export const math=[
