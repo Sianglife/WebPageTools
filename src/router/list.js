@@ -9,7 +9,7 @@ export const home=[
     {
         "path":"/WebPageTools2.0/koala",
         "title":"靖哲",
-        "name":'index',
+        "name":'KOALA',
         "component":()=>require('@/views/koalaB.vue')
     }
 ]

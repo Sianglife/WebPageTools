@@ -2,7 +2,7 @@
     <div class="alert alert-warning text-muted" role="alert" v-show="alert[0] != undefined"><span><strong >{{alert[0]}}</strong>{{alert[1]}}</span></div>
     <div class="container">
         <div class="row text-start d-xxl-flex justify-content-xxl-start" style="border-bottom-style: dotted;">
-            <div class="col" style="width: 100%;text-align: center;margin: 1em;"><span style="font-size: 2em;width: 25%;">輸入一個數字: </span><input type="number" @change="update" v-model="inputnum" style="font-size: 1.5em;height: 2em;width: 75%;" /></div>
+            <div class="col" style="width: 100%;text-align: center;margin: 1em;"><span style="font-size: 2em;width: 25%;">輸入一個數字: </span><input type="number" @change="update" v-model="inputnum" style="font-size: 1.5em;height: 2em;width: 75%;" min="0" /></div>
         </div>
     </div>
     <div class="container" v-if="inputnum!=0">

@@ -1,4 +1,4 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = {
-  publicPath:"/WebPageTools2.0"
+  publicPath:"/webpagetools2.0"
 };

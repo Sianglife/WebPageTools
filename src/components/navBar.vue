@@ -2,7 +2,7 @@
     import {ref} from 'vue'
     const urls =ref([
         {text:'飛翔部落格',href:'https://sianglife.github.io/blog/',icon:'bi bi-pencil',blanktab:true},
-        {text:'小工具首頁',href:'/',icon:'bi bi-house-door',blanktab:false}
+        {text:'小工具首頁',href:'/webpagetools2',icon:'bi bi-house-door',blanktab:false}
     ])
 </script>
 
