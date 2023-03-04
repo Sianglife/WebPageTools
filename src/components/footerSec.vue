@@ -8,19 +8,14 @@
                 <div class="col-lg-4 offset-lg-4">
                     <ul class="list-inline my-2">
                         <li class="list-inline-item me-4">
-                            <div class="bs-icon-circle bs-icon-primary bs-icon">
+                            <a class="bs-icon-circle bs-icon-primary bs-icon" href="https://github.com/Sianglife" title="飛翔Github">
                                 <i class="bi bi-github"></i>
-                            </div>
+                            </a>
                         </li>
                         <li class="list-inline-item me-4">
-                            <div class="bs-icon-circle bs-icon-primary bs-icon">
+                            <a class="bs-icon-circle bs-icon-primary bs-icon" href="https://sianglife.github.io/blog/" title="飛翔部落格">
                                 <i class="bi bi-pencil"></i>
-                            </div>
-                        </li>
-                        <li class="list-inline-item">
-                            <div class="bs-icon-circle bs-icon-primary bs-icon">
-                                <i class="bi bi-tools"></i>
-                            </div>
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -13,7 +13,7 @@ export default {
 
 <template>
     <nav class="navbar navbar-light navbar-expand-md py-3" style="background: rgb(89,154,143);height: 5em;">
-        <a class="navbar-brand d-flex align-items-center" href="/">
+        <a class="navbar-brand d-flex align-items-center" href="/WebPageTools">
             <span
                 class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mx-2 bs-icon">
                 <i style="color: var(--bs-navbar-active-color);" class="bi bi-tools"></i>
