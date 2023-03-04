@@ -6,7 +6,8 @@ export default {
     return {
       pageData: [
         { id: '數學工具', icon: 'bi bi-calculator', data: math },
-        { id: '化學工具', icon: 'bi bi-boxes', data: chemistry }
+        { id: '化學工具', icon: 'bi bi-boxes', data: chemistry },
+        // { id: '日常工具', icon: 'bi bi-bag-dash', data:   }
       ]
     }
   }
