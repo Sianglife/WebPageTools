@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwebpagetools2_0"]=self["webpackChunkwebpagetools2_0"]||[]).push([[182],{3182:function(t,e,n){n.r(e),n.d(e,{default:function(){return i}});var r=n(6252),a=n(3577);const u={class:"text-center"},s=(0,r._)("h1",{style:{margin:"63px"}},"迷路了嗎?這裡沒有東西喔!",-1);function l(t,e,n,l,o,c){return(0,r.wg)(),(0,r.iD)("body",u,[s,(0,r._)("h3",null,"找不到頁面:"+(0,a.zw)(o.urlPath),1)])}var o={name:"404Page",data(){return{urlPath:this.$route.path}}},c=n(3744);const h=(0,c.Z)(o,[["render",l]]);var i=h}}]);
+//# sourceMappingURL=182.541bf5b7.js.map
