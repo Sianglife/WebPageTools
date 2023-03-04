@@ -27,8 +27,8 @@ export default {
 
 
 <style>
-  @import './lib/bootstrap/fonts/BootstrapFonts/bootstrap-icons.css';
-  @import './lib/bootstrap/css/bootstrap.min.css';
-  @import './lib/bootstrap/css/Navbar-Right-Links-icons.css';
-  @import './lib/bootstrap/css/styles.min.css';
+@import './lib/bootstrap/fonts/BootstrapFonts/bootstrap-icons.css';
+@import './lib/bootstrap/css/bootstrap.min.css';
+@import './lib/bootstrap/css/Navbar-Right-Links-icons.css';
+@import './lib/bootstrap/css/styles.min.css';
 </style>

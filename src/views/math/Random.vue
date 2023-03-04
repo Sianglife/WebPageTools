@@ -1,6 +1,7 @@
 <template>
     <div class="alert alert-warning text-muted" role="alert" v-show="alert[0] != undefined">
-        <span><strong>{{ alert[0] }}</strong>{{ alert[1] }}</span></div>
+        <span><strong>{{ alert[0] }}</strong>{{ alert[1] }}</span>
+    </div>
     <div class="container">
         <div class="row"
             style="height: 16em;border-right-style: none;border-bottom-style: dotted;line-height: 28px;margin: 1em;">

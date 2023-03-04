@@ -4,7 +4,7 @@ export default {
         return {
             urls: [
                 { text: '飛翔部落格', href: 'https://sianglife.github.io/blog/', icon: 'bi bi-pencil', blanktab: true },
-                { text: '小工具首頁', to:{ name:'index' }, icon: 'bi bi-house-door', blanktab: true }
+                { text: '工具箱首頁', to:{ name:'index' }, icon: 'bi bi-house-door', blanktab: true }
             ]
         }
     }
@@ -18,7 +18,7 @@ export default {
                 class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mx-2 bs-icon">
                 <i style="color: var(--bs-navbar-active-color);" class="bi bi-tools"></i>
             </span>
-            <span class="text-white">飛翔小工具</span>
+            <span class="text-white">飛翔工具箱</span>
         </a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2">
             <span class="visually-hidden">Toggle navigation</span>

@@ -63,7 +63,7 @@ export const chemistry = [
             "title": "密度工具",
             "description": '密度、質量、體積換算',
         },
-        "redirect": "https://sianglife.github.io/WebPageTools1.0/chemistry/DensityCounter.html"
+        "component": () => import('@/views/chemistry/Density.vue')
     },
     {
         "CommingSoom": false,
@@ -73,7 +73,7 @@ export const chemistry = [
             "title": "分子量計算器",
             "description": '計算化合物分子量',
         },
-        "redirect": "https://sianglife.github.io/WebPageTools1.0/chemistry/MoleCularCounter.html"
+        "component": () => import('@/views/chemistry/MoleCular.vue')
     },
 ]
 export const daily = [
