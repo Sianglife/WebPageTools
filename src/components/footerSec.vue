@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-3">
                 <div class="col">
-                    <p class="my-2" style="color: #f8f9fa;">Copyright&nbsp;© 2022 Sianglife</p>
+                    <p class="my-2" style="color: #f8f9fa;">Copyright&nbsp;© 2024 Sianglife</p>
                 </div>
                 <div class="col-lg-4 offset-lg-4">
                     <ul class="list-inline my-2">
